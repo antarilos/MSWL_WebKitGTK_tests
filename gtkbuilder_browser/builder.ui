@@ -1,0 +1,16 @@
+<interface>
+  <object id="main_window" class="GtkWindow">
+    <property name="visible">True</property>
+    <property name="title">GTKBuilder minibrowser</property>
+    <property name="border-width">10</property>
+    <property name="default-height">600</property>
+    <property name="default-width">800</property>
+	<property name="border-width">0</property>
+    <child>
+      <object id="scrolledWindow" class="GtkScrolledWindow">
+        <property name="visible">True</property>
+        <property name="hscrollbar-policy">GTK_POLICY_AUTOMATIC</property>
+      </object>
+    </child>
+  </object>
+</interface>
